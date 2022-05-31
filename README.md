@@ -21,7 +21,7 @@ For the console UI I have used the MVC design pattern. A class diagram was provi
 However, I did give my own implementation to it. The console UI  depends on the infrastructure layer through dependency 
 injection.
 - ### [Infrastructure layer](Infrastructure)
-I have used the provided class diagram for the template pattern provided by HBO ICT to make the database layer modular. To access the database layer
+I have used the provided class diagram (by HBO ICT) for the template pattern to make the database layer extensible. To access the database layer
 I make use of DAOs and Repositories.
 
 
